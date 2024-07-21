@@ -10,7 +10,7 @@ console.log (risultato);
 function invertiParola(parola) {
     
     //dividi parola
-    let parolaDivisa = parola.toLowerCase(``).split(``);
+    let parolaDivisa = parola.toLowerCase().split(``);
     console.log (`parola divisa:`, parolaDivisa);
     
     //inverti parola

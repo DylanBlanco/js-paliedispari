@@ -10,10 +10,10 @@ Dichiariamo chi ha vinto.
 2. chiedi numero da 1 a 5
 3. genera numero random da 1 a 5 usando funzione
     3.1 crea funzione numRandom()
-    3.2 genera numRandom
-    3.3 dichiara risultato
-4. stabilisci se somma num è pari o dispari con funzione
+    3.2 genera numRandom da 1 a 5
+    3.3 dichiara risultato / Result
+4. stabilisci se somma dei numeri dati è pari o dispari con funzione
     4.1 crea funzione pariDispari()
     4.2 somma tra numInserito e numRandom
-    4.3 dichiara risultato
+    4.3 dichiara risultato / Result
 5. dichiara vincitore
