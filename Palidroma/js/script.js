@@ -3,7 +3,7 @@ let parola = prompt (`Inserisci Parola:`);
 console.log (`parola scelta:`, parola);
 
 //dividi parola
-let parolaDivisa = parola.split(``);
+let parolaDivisa = parola.toLowerCase().split(``);
 console.log (`parola divisa:`, parolaDivisa);
 
 //inverti parola
