@@ -2,22 +2,35 @@
 let parola = prompt (`Inserisci Parola:`);
 console.log (`parola scelta:`, parola);
 
-//dividi parola
-let parolaDivisa = parola.toLowerCase().split(``);
-console.log (`parola divisa:`, parolaDivisa);
+//richiama funzione
+const risultato = invertiParola(parola);
+console.log (risultato);
 
-//inverti parola
-parolaDivisa = parolaDivisa.reverse(``);
-console.log (`parola invertita:`, parolaDivisa);
-
-//unisci in una sola stringa contenuto dell'array
-let parolaInvertita = parolaDivisa.join(``);
-console.log (`parola invertita:`, parolaInvertita);
-
-//condizione
-if (parola == parolaInvertita) {
-    console.log (`La parola inserita è Palidroma:`, parolaInvertita);
-}
-else {
-    console.log (`La parola inserita non è palidroma:`, parolaInvertita);
+//Funzione
+function invertiParola(parola) {
+    
+    //dividi parola
+    let parolaDivisa = parola.toLowerCase().split(``);
+    console.log (`parola divisa:`, parolaDivisa);
+    
+    //inverti parola
+    parolaDivisa = parolaDivisa.reverse(``);
+    console.log (`parola invertita:`, parolaDivisa);
+    
+    //unisci in una sola stringa contenuto dell'array
+    let parolaInvertita = parolaDivisa.join(``);
+    console.log (`parola invertita:`, parolaInvertita);
+    
+    //Return
+    
+    //condizione
+    if (parola == parolaInvertita) {
+        console.log (`La parola inserita è Palidroma:`, parolaInvertita);
+    }
+    else {
+        console.log (`La parola inserita non è palidroma:`, parolaInvertita);
+    }
+    
+    //Result
+    return parolaInvertita;
 }
