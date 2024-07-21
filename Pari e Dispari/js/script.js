@@ -33,3 +33,13 @@ else if (num < 1) {
     console.log (`num non valido:`, num);
     alert (`Numero non valido. Inserisci numero da 1 a 5.`);
 }
+
+//genera numRandom da 1 a 5 usando funzione
+function numRandom (random) {
+    //genera num. random da 1 a 5
+    let casual = Math.floor(Math.random() * 5) + 1;
+    console.log (`num. casuale generato:`, casual);
+
+    //return
+    return casual;
+}
