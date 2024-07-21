@@ -10,7 +10,7 @@ console.log (risultato);
 function invertiParola(parola) {
     
     //dividi parola
-    let parolaDivisa = parola.toLowerCase().split(``);
+    let parolaDivisa = parola.toLowerCase(``).split(``);
     console.log (`parola divisa:`, parolaDivisa);
     
     //inverti parola
@@ -21,8 +21,6 @@ function invertiParola(parola) {
     let parolaInvertita = parolaDivisa.join(``);
     console.log (`parola invertita:`, parolaInvertita);
     
-    //Return
-    
     //condizione
     if (parola == parolaInvertita) {
         console.log (`La parola inserita è Palidroma:`, parolaInvertita);
@@ -31,6 +29,6 @@ function invertiParola(parola) {
         console.log (`La parola inserita non è palidroma:`, parolaInvertita);
     }
     
-    //Result
+    //Return
     return parolaInvertita;
 }
