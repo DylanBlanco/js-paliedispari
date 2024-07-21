@@ -13,3 +13,11 @@ console.log (`parola invertita:`, parolaDivisa);
 //unisci in una sola stringa contenuto dell'array
 let parolaInvertita = parolaDivisa.join(``);
 console.log (`parola invertita:`, parolaInvertita);
+
+//condizione
+if (parola == parolaInvertita) {
+    console.log (`La parola inserita è Palidroma:`, parolaInvertita);
+}
+else {
+    console.log (`La parola inserita non è palidroma:`, parolaInvertita);
+}
